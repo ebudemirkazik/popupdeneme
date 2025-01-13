@@ -8,58 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <div class="modal-open">
-      <a href="#" class="cb-link">
-        <svg class="icon icon-close" width="8" height="8">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
-      </a>
-      <p class="modal-header">Leave your contacts and we will call you back</p>
-      <div class="form-container">
-        <form class="form">
-          <label for="name">Name</label>
-          <div class="input-group">
-            <svg class="icon icon-card" width="12" height="12">
-              <use href="./images/icons.svg#icon-card"></use>
-            </svg>
-            <input type="text" id="name" placeholder="Name" />
-          </div>
-
-          <label for="phone">Phone</label>
-          <div class="input-group">
-            <svg class="icon icon-phone" width="12" height="12">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
-            <input type="tel" id="phone" placeholder="Phone" />
-          </div>
-
-          <label for="email">Email</label>
-          <div class="input-group">
-            <svg class="icon icon-mail" width="12" height="12">
-              <use href="./images/icons.svg#icon-mail"></use>
-            </svg>
-            <input type="email" id="email" placeholder="Email" />
-          </div>
-
-          <label for="comment">Comment</label>
-          <div class="input-group">
-            <textarea id="comment" placeholder="Text input"></textarea>
-          </div>
-        </form>
-      </div>
-      <form action="" class="last-form">
-        <input
-          type="checkbox"
-          name="checkbox"
-          id="checkbox"
-          value="I accept the terms and conditions of the Privacy Policy"
-        />
-        <label for="checkbox" class="checkbox-label"
-          >I accept the terms and conditions of the
-          <span><a href="#">Privacy Policy</a></span></label
-        >
-      </form>
-    </div>
+    
 
     <footer class="main-footer">
       <div class="container">
@@ -144,17 +93,31 @@
           <form action="">
             <div class="input-div">
               <label for="user-name" class="input-label">Name</label>
-              <div class="input-div-two">
+              <div class="input-div-in">
                 <input type="text" name="user-name" id="user-name" class="input-name">
                 <svg class="icon icon-card" width="18" height="24">
                   <use href="./images/icons.svg#icon-card"></use>
                 </svg>
-                
-                
               </div>
-              
             </div>
+
+            <div class="input-div">
+              <label for="phone" class="input-label">Phone</label>
+              <div class="input-div-in">
+                <input type="text" name="phone" id="phone" class="input-name">
+                <svg class="icon icon-phone" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+              </div>
+            </div>
+
+            
+
+
+
           </form>
+
+
         </div>
 
       </modal-window>
