@@ -285,6 +285,28 @@ footer .form .sub-form .form-button .icon {
 	border-color: #4D5AE5;
 }
 
-.modal-open .modal-container .input-div 
+.modal-open .modal-container div:nth-child(4){
+	'margin-bottom: 16px;
+}
+
+.modal-open .modal .modal-container .input-div .input-comment {
+	width: 360px;
+	height: 120px;
+	font-size: 12px;
+	line-height: 1.17;
+	letter-spacing: 0.04em;
+	color: rgba(46, 47 , 66, 0.4);
+	border: 1px solid rgba(46, 47, 66, 0.4);
+	border-radius: 4px;
+	background-color: transparent;
+	padding: 8px 24px;
+	outline: transparent;
+	resize: none;
+	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-open .modal .modal-container .input-div .input-comment:focus {
+	border-color: #4D5AE5;
+}
+
 
   /* modal */
