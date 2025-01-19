@@ -242,6 +242,7 @@ footer .form .sub-form .form-button .icon {
 
 .modal-open .modal .modal-container .input-div {
 	margin-bottom: 8px;
+	
 }
 .modal-open .modal .modal-container .input-div .input-label {
 	font-size: 12px;
@@ -256,12 +257,13 @@ footer .form .sub-form .form-button .icon {
 }
 
 .modal-open .modal .modal-container .input-div .input-name {
-	width: 100%;
+	width: 360px;
 	height: 40px;
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
 	background-color: transparent;
-	padding-left: 38px;
+	padding-left: 24px;
+	padding-right: 24px;
 	outline: transparent;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
